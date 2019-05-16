@@ -5,7 +5,7 @@ function Friends (props){
     return(
         <div className = 'friend-list-wrapper'>
         <div>
-            <Navlink to ='/friend-form'>Add Friend</Navlink>
+            <NavLink to ='/friend-form'>Add Friend</NavLink>
         </div>
 
         {props.friends.map(friend =>
