@@ -41,7 +41,6 @@ class App extends React.Component {
     return (
       <div className="App">
       <h1>Friends</h1>
-
       <Route exact path = '/' component = {Home}/>
       <Route 
         exact path = '/friends' 

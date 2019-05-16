@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Friends.css';
 
 class FriendForm extends React.Component {
 
@@ -36,21 +36,21 @@ class FriendForm extends React.Component {
                         type='text'
                         name='name'
                         onChange={this.changeHandler}
-                        placeholder='name'
+                        placeholder='name...'
                         value={this.state.friend.name}
                         />
                     <input
                         type='number'
                         name='age'
                         onChange={this.changeHandler}
-                        placeholder='age'
+                        placeholder='age...'
                         value={this.state.friend.age}
                         />
                     <input
                         type='string'
                         name='email'
                         onChange={this.changeHandler}
-                        placeholder='email'
+                        placeholder='email...'
                         value={this.state.friend.email}
                         />
                     <button className='add-friend-btn'>Add New Friend</button>

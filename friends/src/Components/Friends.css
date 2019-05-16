@@ -1,0 +1,33 @@
+.friend-card{
+    border: 1px solid white;
+    border-radius: 100px;
+    width: 500px;
+    margin-left: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: whitesmoke;
+    color: purple;
+}
+
+input{
+    padding: 20px;
+    background: black;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width:800px;
+    margin-left: 560px;
+}
+
+.add-friend-btn{
+    padding: 10px;
+    background: black;
+    color:white;
+    border: none;
+    border-radius: 3px;
+}
